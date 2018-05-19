@@ -1,27 +1,23 @@
 {
-  "name": "@qontu/ngx-inline-editor",
-  "version": "0.2.0-alpha.11",
+  "name": "@fradev/ngx-inline-editor",
+  "version": "0.2.0-alpha.11-angular-v6",
   "author": {
-    "name": "Carlos Caballero",
-    "email": "caballerog.carlos@gmail.com"
+    "name": "Francesco Donzello",
+    "email": "francesco.donzello@gmail.com"
   },
   "maintainers": [
     {
-      "name": "Carlos Caballero",
-      "email": "caballerog.carlos@gmail.com"
-    },
-    {
-      "name": "Toni Villena",
-      "email": "tonivj5@gmail.com"
+      "name": "Francesco Donzello",
+      "email": "francesco.donzello@gmail.com"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qontu/ngx-inline-editor"
+    "url": "https://github.com/fraway/ngx-inline-editor"
   },
   "bugs": {
-    "url": "https://github.com/qontu/ngx-inline-editor/issues"
+    "url": "https://github.com/fraway/ngx-inline-editor/issues"
   },
   "keywords": [
     "angular",
@@ -48,18 +44,14 @@
     }
   },
   "dependencies": {},
-  "peerDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0"
-  },
+  "peerDependencies": {},
   "devDependencies": {
-    "@angular/common": "^4.3.6",
-    "@angular/compiler": "^4.3.6",
-    "@angular/core": "^4.3.6",
-    "@angular/forms": "^4.3.6",
-    "@angular/platform-browser": "^4.3.6",
-    "@angular/platform-browser-dynamic": "^4.3.6",
+    "@angular/common": "^6.0.2",
+    "@angular/compiler": "^6.0.2",
+    "@angular/core": "^6.0.2",
+    "@angular/forms": "^6.0.2",
+    "@angular/platform-browser": "^6.0.2",
+    "@angular/platform-browser-dynamic": "^6.0.2",
     "@types/del": "^2.2.32",
     "@types/gulp": "4.0.3",
     "@types/gulp-changed": "^0.0.31",
@@ -69,7 +61,7 @@
     "@types/merge2": "^0.3.30",
     "@types/node": "~7.0.13",
     "@types/run-sequence": "^0.0.28",
-    "codelyzer": "^3.1.2",
+    "codelyzer": "^4.3.0",
     "commitizen": "^2.9.6",
     "conventional-changelog-lint": "^1.1.9",
     "core-js": "^2.5.1",
@@ -101,11 +93,11 @@
     "reflect-metadata": "~0.1.10",
     "rollup": "^0.47.2",
     "run-sequence": "^1.2.2",
-    "rxjs": "^5.4.3",
+    "rxjs": "^6.1.0",
     "ts-node": "~3.3.0",
     "tslint": "^5.7.0",
     "typescript": "~2.4.2",
-    "zone.js": "^0.8.17"
+    "zone.js": "^0.8.26"
   },
   "engines": {
     "node": ">=6.0.0"

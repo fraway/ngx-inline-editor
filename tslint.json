@@ -12,7 +12,9 @@
     "curly": true,
     "eofline": true,
     "forin": true,
-    "import-blacklist": [true, "rxjs"],
+    "import-blacklist": [
+      true
+    ],
     "import-spacing": true,
     "indent": [
       true,
@@ -70,7 +72,10 @@
     "no-empty": false,
     "no-empty-interface": true,
     "no-eval": true,
-    "no-inferrable-types": [true, "ignore-params"],
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-string-throw": true,
@@ -81,7 +86,8 @@
     "object-literal-sort-keys": false,
     "object-literal-shorthand": true,
     "object-literal-key-quotes": [
-      true, "as-needed"
+      true,
+      "as-needed"
     ],
     "typeof-compare": true,
     "typedef-whitespace": [
@@ -94,14 +100,27 @@
         "variable-declaration": "nospace"
       }
     ],
-    "trailing-comma": [true, {
-      "multiline": "always",
-      "singleline": "never"
-    }],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "directive-selector": [true, "attribute", "inline-editor", "camelCase"],
-    "component-selector": [true, "element", "inline-editor", "kebab-case"],
+    "directive-selector": [
+      true,
+      "attribute",
+      "inline-editor",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "inline-editor",
+      "kebab-case"
+    ],
     "prefer-const": true,
     "one-line": [
       true,

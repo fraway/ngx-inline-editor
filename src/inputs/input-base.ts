@@ -5,7 +5,7 @@ import {
     AfterViewInit, AfterViewChecked, AfterContentChecked,
     OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef,
 } from "@angular/core";
-import { Subscription } from "rxjs/Subscription";
+import { Subscription } from "rxjs";
 import { InlineEditorError } from "../types/inline-editor-error.interface";
 import { InlineEditorState } from "../types/inline-editor-state.class";
 import { InlineEditorService } from "../inline-editor.service";
@@ -162,7 +162,7 @@ export class InputBase implements OnInit, OnChanges, DoCheck,
         const { value } = this.state.getState();
 
         if (this.canTestRegex(this.config)) {
-            if (!new RegExp(this.config.pattern as string).test(value != null && value !== false ? value : ''))  {
+            if (!new RegExp(this.config.pattern as string).test(value != null && value !== false ? value : '')) {
                 errs.push({
                     type: "PATTERN_ERROR",
                     message: "Test pattern has failed",
