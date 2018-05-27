@@ -21,7 +21,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "ngx-inline-editor.js",
-    "flatModuleId": "@qontu/ngx-inline-editor"
+    "flatModuleId": "@fradev/ngx-inline-editor"
   },
   "files": [
     "./inline-editor.module.ts"
